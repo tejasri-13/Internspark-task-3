@@ -1,0 +1,22 @@
+✅ JUnit Test Result
+BUILD SUCCESSFUL
+
+Test run finished
+[ 1 tests successful ]
+[ 0 tests failed     ]
+
+✅ Mockito Verification (implicit success)
+✔ EmployeeService.getById() returned expected result
+✔ Repository interaction verified
+
+
+✅ Application Logs (Logback)
+2026-04-23 10:20:01 - Application started
+2026-04-23 10:20:05 - Creating employee: Nandu
+2026-04-23 10:20:06 - Fetching all employees
+2026-04-23 10:20:08 - Updating employee ID: 1
+2026-04-23 10:20:10 - Deleting employee ID: 1
+
+
+✅ Error Log Example
+2026-04-23 10:22:00 - ERROR - Employee not found with ID: 99\
